@@ -1,0 +1,39 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header_p{
+    color: #024802;
+    background-color: rgb(249, 255, 129);
+    padding: 10px;
+    border-top: 3px solid orange;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#img_pizza{
+    width: 400px;
+}
+
+#box_feature{
+    background-color: rgb(249, 255, 129);
+    border-left: 3px solid orange;
+    padding-left: 15px;
+}
+
+#separatore {
+/*
+    color: rgb(80, 235, 236);
+    <hr> non si colora direttamente con la proprietà color in CSS.
+    La proprietà color generalmente colora solo il testo
+*/
+    border: none;
+    border-top: 0.5px solid rgb(80, 235, 236);
+}
+
