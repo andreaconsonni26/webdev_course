@@ -1,0 +1,159 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    background-color: #E9EDED;
+}
+
+#header{
+}
+
+#header_logo{
+    background-color: #212f3e;
+}
+
+#header_img_logo{
+    width: 12%;
+    height: auto;
+    padding-left: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#header_navigator{
+    color: #E9EDED;
+    background-color: #344758;
+    padding-left: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#header_navigator span {
+    padding-right: 0.7em;
+}
+
+main{
+    max-width: 100%;
+}
+
+#banner_1{
+    color:  #E9EDED;
+    background-color: #f56600;
+    text-align:center;
+    margin: 1em;
+}
+
+#banner_1 p{
+    padding: 0.2em;
+}
+
+#banner_2{
+    color: #E9EDED;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.9em;
+    padding-bottom: 0.3em;
+    background-image: url(img/bg-image.png);
+    background-size: 100%;
+    margin: 1em;
+}
+
+#banner_3{
+    background-color: white;
+    margin: 1em;
+}
+
+#banner_3_img{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;                 /* Distanza tra le immagini */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#banner_3_img img{
+    width: 150px;              /* Larghezza fissa */
+    height: 190px;             /* Altezza fissa */
+    object-fit: cover;        /* Ritaglia l'immagine per riempire il box senza deformarla */
+    border-radius: 15px;       /* Angoli stondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra leggera */
+}
+
+#banner_3_p{
+    width: 100%;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#banner_3 p a{
+    text-decoration: none;
+    color: #306e5f;
+}
+
+
+#banner_4{
+    max-width: 95%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#banner_4 #img_9{
+    max-width: 100%;
+    height: auto;
+}
+
+#banner_4 p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#banner_4 p a{
+    text-decoration: none;
+    color: #306e5f;
+}
+
+#banner_5{
+    max-width: 95%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#banner_5 #img_10{
+    max-width: 100%;
+    height: auto;
+}
+
+#banner_5 p{
+    margin-top: 0px;
+}
+
+#banner_5 p a{
+    text-decoration: none;
+    color: #306e5f;
+}
+
+#footer_navigator{
+    color: #E9EDED;
+    background-color: #344758;
+    text-align: center;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+}
+
+#footer_navigator a{
+    color: #E9EDED;
+}
+
+#footer_logo{
+    background-color:#212f3e;
+    display: flex;
+    justify-content: center;
+}
+
+#footer_img_logo{
+    width: 16%;
+    height: auto;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 01em;
+}
