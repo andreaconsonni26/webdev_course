@@ -1,0 +1,187 @@
+/*FONT SECTION START*/
+.unna-regular {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .unna-bold {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .unna-regular-italic {
+    font-family: "Unna", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .unna-bold-italic {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+/*FONT SECTION END*/
+  
+
+/*
+    check strategy
+*/
+
+body{
+    font-family: "Unna";
+/*
+        Per dare rientro dei margini a tutta la pagina,
+        box-shadow in header non sarebbe stato lungo tutta la pagina
+        in orizzontale
+        padding-left: 70px;
+        padding-right: 70px;
+*/
+}
+
+
+#medium_logo{
+    width: 200px;
+}
+
+.icone{
+    width: 15px;
+}
+
+/*
+    Risultato non voluto
+    bow shadow non solo nel bottom
+*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0 8px 20px -10px gray;
+}
+
+nav{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between; 
+}
+
+/*
+check strategy
+*/
+#membership{
+        padding: 7px;
+        border: 2px solid black;
+        border-radius: 15px;
+}
+
+#profile_icone{
+    background-color: orchid;
+    padding: 7px;
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*MAIN*/
+hr{
+    border-top: 1px solid rgb(207, 207, 207);
+}
+main div{
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+}
+
+main div section{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+main div section nav{
+    justify-content: flex-start;
+}
+
+/*Child element gained parent padding with padding:70px PROBLEM*/
+.article{
+    margin-left: -70px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article_n{
+    display: block;
+}
+
+.article_pic{
+    width: 120px;
+}
+
+main div section article span{
+    color: rgb(93, 92, 92);
+}
+.react{
+    color: rgb(93, 92, 92);
+    background-color: rgb(207, 207, 207);
+    padding: 3px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+}
+
+main hr{
+    margin-top: 30px;
+}
+
+#sidebar{
+    padding-left: 30px;
+}
+#sidebar div{
+    text-align: center;
+    margin-left: -70px;
+    margin-right: -70px;
+    display: block;
+}
+
+#connect_twitter{
+    padding: 3px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.rt{
+    background-color: rgb(236, 235, 235);
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 3px;
+}
+
+#reccomandation_1_pic{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url(assets/plato_pic.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/*FOOTER*/
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer span{
+    margin: 0 4px; /* Spazio orizzontale tra gli span */
+}
